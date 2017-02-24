@@ -1,0 +1,12 @@
+<article class="speakerslist">
+  <div class="container">
+    <div class="row">
+      <% blogs.forEach(function(item){ %>
+        <div class="col-sm-12">
+          <h1 class="bloglist-title"><a href="/blogs"><%= item.title %></a></h1>
+          <p class="blogslist-info"><%= item.summary %></p>
+        </div>
+      <% }); %>
+    </div><!-- row -->
+  </div><!-- container -->
+</article>

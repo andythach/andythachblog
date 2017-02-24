@@ -1,0 +1,17 @@
+{
+  "name": "websitev1",
+  "version": "1.0.0",
+  "description": "A personal website developed by Andy Thach",
+  "main": "app/app.js",
+  "scripts": {
+    "start": "nodemon -e css,ejs,js,json --watch app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andy Thach",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.14.1",
+    "reload": "^1.1.1"
+  }
+}

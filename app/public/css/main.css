@@ -1,0 +1,320 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:100, 300);
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 400;
+  color: #40a0ff;
+}
+
+p {
+  font-family: inherit;
+  font-weight: 100;
+}
+
+
+li {
+  font-family: inherit;
+  font-weight: 100;
+}
+
+
+a {
+  color: #40a0ff;
+}
+
+/**  Header Navigation **/
+
+header {
+  font-size: 3.2rem;
+}
+
+header .jumbotron {
+  height: 100vh;
+  position: relative;
+  margin-bottom: 0;
+  background: url(../images/homeImage.jpg) no-repeat 100% 5%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header .jumbotron .welcometext h2 {
+  position: absolute;
+  color: white;
+  font-family: 'Amatic SC', cursive;
+  font-size: 5em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+header .jumbotron .welcometext h3 {
+  position: absolute;
+  color: white;
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.8em;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 1250px) {
+  header .jumbotron .welcometext h2 {
+    font-size: 4.6em;
+  }
+  header .jumbotron .welcometext h3 {
+    font-size: 1.6em;
+  }
+}
+
+@media (max-width: 1000px) {
+  header .jumbotron .welcometext h2 {
+    font-size: 4.6em;
+  }
+  header .jumbotron .welcometext h3 {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 950px) {
+  header .jumbotron .welcometext h2 {
+    font-size: 3.6em;
+  }
+  header .jumbotron .welcometext h3 {
+    font-size: 1.4em;
+  }
+}
+
+@media (max-width: 900px) {
+  header .jumbotron .welcometext h2 {
+    font-size: 3em;
+  }
+  header .jumbotron .welcometext h3 {
+    font-size: 1.2em;
+  }
+}
+
+/**  Navbar **/
+
+header .navbar {
+  background: #40a0ff;
+  margin-bottom: 0;
+  border-radius: 0;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 100;
+}
+
+header .navbar-default {
+  border: none;
+  border-radius: 0;
+  padding: 10px 0;
+}
+
+.navbar-inverse {
+  border: 0;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: #40a0ff !important;
+}
+
+.navbar-inverse .navbar-collapse {
+  border-color: white;
+}
+
+header .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  background-color: #40a0ff;
+}
+
+
+header .navbar-brand {
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.3em;
+  font-weight: 300;
+}
+
+header .navbar-inverse .navbar-brand {
+  color: white;
+}
+
+header .navbar-inverse .navbar-nav>li>a {
+  color: white;
+  text-transform: uppercase;
+}
+
+.article h1 {
+  font-size: 50px;
+}
+
+.col-sm-12 h1 a {
+  font-size: 50px;
+}
+
+article .col-sm-12 p {
+  font-family: 'Amatic SC', cursive;
+  font-size: 2.8rem;
+  line-height: 160%;
+}
+
+.maincontent {
+  font-family: 'Amatic SC', cursive;
+  font-size: 2.8rem;
+  line-height: 160%;
+}
+
+.sidebar {
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.8rem;
+  line-height: 130%;
+}
+
+.sidebar .sidebar-title {
+  font-size: 1.5em;
+}
+
+.sidebar .sidebar-body li {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    line-height: 160%;
+  }
+  .sidebar .sidebar-title {
+    font-size: 2em;
+  }
+}
+
+.blogslist {
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.8rem;
+  line-height: 160%;
+}
+
+.blogslist-title {
+  font-size: 1.7em;
+}
+
+#home .blogslist-title {
+  font-size: 1.5em;
+}
+
+#speakerDetail .blogslist-title {
+  font-size: 2.4em;
+}
+
+.form-control {
+  font-weight: 100;
+  font-size: 1.7rem;
+}
+
+.chat-form {
+  margin-top: 20px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.5rem;
+}
+
+.jumbotron {
+  padding: 20px 0;
+  background-color: #FFEB8B;
+}
+
+/**  chat-display **/
+
+.chat-display {
+  min-height: 150px;
+  max-height: 40vh;
+  overflow: scroll;
+  font-size: 1.2em;
+}
+
+.chat-display p {
+  font-size: .9em;
+  padding: 0 10px;
+}
+
+.feedback, .feedback-form-title {
+  font-size: 2rem;
+}
+
+.feedback-form {
+  margin-top: 20px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.5rem;
+}
+
+
+.feedback-title {
+  font-size: 1.2em;
+}
+
+.feedback-form-title {
+  font-size: 2em;
+}
+
+.feedback-name {
+  font-size: .6em;
+  font-weight: 100;
+}
+
+.feedback-message {
+  font-weight: 100;
+  font-size: .9em;
+  line-height: 120%;
+  margin-top: 5px;
+}
+
+.feedback-item {
+  border-bottom: 1px solid gray;
+  padding: 8px 0;
+}
+
+.feedback-item:last-of-type {
+  border-bottom: none;
+}
+
+
+/**  pixgrid **/
+
+.pixgrid {
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.pixgrid img {
+  display: block;
+  padding: 5px;
+  float: left;
+  width: 33.33%;
+  border-radius: 10px;
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+  .pixgrid img {
+    width: 20%;
+  }
+}
+
+footer .copyrighttxt {
+  background-color: #40a0ff;
+  margin-bottom: 0;
+  border-radius: 0;
+  font-family: 'Amatic SC', 'cursive';
+  font-weight: 100;
+}
+
+footer .copyrighttxt h1 {
+  padding-top: 15px;
+  margin: 0;
+  padding-bottom: 15px;
+  text-align: center;
+  color: white;
+  line-height: 20px;
+}
